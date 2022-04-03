@@ -1,0 +1,55 @@
+<!--pages/index/index.wxml-->
+<view>
+  <view class="top">
+    <view class="position">
+      <image class="wei" src="../../static/img/dingwei.png"></image>
+      <text class="bohai">渤海大学</text>
+    </view>
+    <view class="search">
+      <view class="shao">
+        <image class="shao-im" src="../../static/img/ma.png"></image>
+      </view>
+      <input class="shuru" type="text" placeholder="请输入要搜索的内容"/>
+      <image class="yuyin" src="../../static/img/maikefeng.png"></image>
+      <view class="sbumit"><text class="text1">搜索</text></view>
+    </view>
+  </view>
+  <view class="body">
+    <view class="daohang">
+      <view class="daohang-rongqi">
+        <view class="one"><image class="tubiao" src="../../static/img/juzi.png"/><text class="name">水果顺手</text></view>
+        <view class="one"><image class="tubiao" src="../../static/img/chanju.png"/><text class="name">食堂顺手</text></view>
+        <view class="one"><image class="tubiao" src="../../static/img/hongche.png"/><text class="name">出行顺手</text></view>
+        <view class="one"><image class="tubiao" src="../../static/img/maichu.png"/><text class="name">闲置顺手</text></view>
+        <view class="one"><image class="tubiao" src="../../static/img/yaoxiang.png"/><text class="name">药店顺手</text></view>
+        <view class="one"><image class="tubiao" src="../../static/img/hezi.png"/><text class="name">快递顺手</text></view>
+        <view class="one"><image class="tubiao" src="../../static/img/gouwuche.png"/><text class="name">超市顺手</text></view>
+        <view class="one"><image class="tubiao" src="../../static/img/rili.png"/><text class="name">物品顺手</text></view>
+      </view>
+    </view>
+    <swiper class="lunbo" autoplay interval="2000" circular indicator-dots>
+      <swiper-item><image class="it" mode="widthFix" src="../../static/img/1.png" /></swiper-item>
+      <swiper-item><image class="it" mode="widthFix" src="../../static/img/2.png" /></swiper-item>
+      <swiper-item><image class="it" mode="widthFix" src="../../static/img/3.png" /></swiper-item>
+      <swiper-item><image class="it" mode="widthFix" src="../../static/img/4.png" /></swiper-item>
+    </swiper>
+    <view class="item1">
+      <text class="B1">取快递</text>
+      <text class="B2">送到3651</text>
+      <image class="B3" src="../../static/img/jinbi.png"></image>
+      <text class="B4">顺手币：</text>
+      <text class="B5">￥1.00</text>
+      <text class="B6">2021-5-13 11:02</text>
+      <view class="B7"><text class="B8">查看详情</text></view>
+    </view>
+    <view class="item1">
+      <text class="B1">食堂一楼咖喱饭</text>
+      <text class="B2">送到6210</text>
+      <image class="B3" src="../../static/img/jinbi.png"></image>
+      <text class="B4">顺手币：</text>
+      <text class="B5">￥2.00</text>
+      <text class="B6">2021-5-13 12:02</text>
+      <view class="B7"><text class="B8">查看详情</text></view>
+    </view>
+  </view>
+</view>

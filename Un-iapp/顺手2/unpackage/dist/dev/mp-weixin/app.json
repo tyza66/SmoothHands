@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/pengyouquan/pengyouquan",
+    "pages/xiaoxi/xiaoxi",
+    "pages/wode/wode",
+    "pages/faburenwu/faburenwu"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "页面",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/shouye.png",
+        "selectedIconPath": "static/icon/shouye1.png"
+      },
+      {
+        "text": "朋友圈",
+        "pagePath": "pages/pengyouquan/pengyouquan",
+        "iconPath": "static/icon/pengyouquan.png",
+        "selectedIconPath": "static/icon/pengyouquan1.png"
+      },
+      {
+        "text": "发布任务",
+        "pagePath": "pages/faburenwu/faburenwu",
+        "iconPath": "static/icon/jiahao.png",
+        "selectedIconPath": "static/icon/jiahao1.png"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/xiaoxi/xiaoxi",
+        "iconPath": "static/icon/xiaoxi.png",
+        "selectedIconPath": "static/icon/xiaoxi1.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/wode/wode",
+        "iconPath": "static/icon/wode.png",
+        "selectedIconPath": "static/icon/wode1.png"
+      }
+    ],
+    "backgroundColor": "#FDFDFD",
+    "fontSize": "15px"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

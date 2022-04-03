@@ -1,0 +1,100 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+	    ,{
+            "path" : "pages/pengyouquan/pengyouquan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "朋友圈",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/xiaoxi/xiaoxi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wode/wode",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/faburenwu/faburenwu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布任务",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/xiaoyuanshunshou/xiaoyuanshunshou",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "页面",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle":"custom"
+	},
+	"tabBar": {
+			"selectedColor":"#000000",
+			"list": [
+				{
+					"text": "首页",
+					"pagePath": "pages/xiaoyuanshunshou/xiaoyuanshunshou",
+					"iconPath":"static/icon/shouye.png",
+					"selectedIconPath":"static/icon/shouye1.png"
+				},
+				{
+					"text": "朋友圈",
+					"pagePath": "pages/pengyouquan/pengyouquan",
+					"iconPath":"static/icon/pengyouquan.png",
+					"selectedIconPath":"static/icon/pengyouquan1.png"
+				},
+				{
+					"text": "发布任务",
+					"pagePath": "pages/faburenwu/faburenwu",
+					"iconPath":"static/icon/jiahao.png",
+					"selectedIconPath":"static/icon/jiahao1.png"
+				},
+				{
+					"text": "消息",
+					"pagePath": "pages/xiaoxi/xiaoxi",
+					"iconPath":"static/icon/xiaoxi.png",
+					"selectedIconPath":"static/icon/xiaoxi1.png"
+					
+				},
+				{
+					"text": "我的",
+					"pagePath": "pages/wode/wode",
+					"iconPath":"static/icon/wode.png",
+					"selectedIconPath":"static/icon/wode1.png"
+				}
+			],
+			"backgroundColor":"#FDFDFD",
+			"fontSize":"15px"
+		}
+}

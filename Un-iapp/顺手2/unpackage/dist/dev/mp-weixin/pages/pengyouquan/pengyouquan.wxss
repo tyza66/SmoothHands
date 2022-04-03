@@ -1,0 +1,250 @@
+
+.top {
+	height: 25px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.search {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	height: 100rpx;
+}
+.bhu {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 200rpx;
+	height: 76rpx;
+	margin-top: 12rpx;
+	margin-left: 25rpx;
+}
+.bhu .pos {
+	width: 40rpx;
+	height: 40rpx;
+}
+.bhu ._p {
+	margin-left: 10rpx;
+	display: inline-block;
+	font-family: "楷体";
+	font-weight: 800;
+}
+.find {
+	position: relative;
+	display: inline-block;
+	width: 320rpx;
+	height: 65rpx;
+	border-radius: 40rpx;
+	border: black solid 1px;
+}
+.find input {
+	width: 230rpx;
+	height: 60rpx;
+	position: absolute;
+	font-family: "楷体";
+	left: 10rpx;
+	top: 4rpx;
+}
+.find image {
+	width: 45rpx;
+	height: 45rpx;
+	position: absolute;
+	left: 260rpx;
+	top: 10rpx;
+}
+.jia {
+	width: 45rpx;
+	height: 45rpx;
+	margin-left: 100rpx;
+}
+.show {
+	width: 700rpx;
+	height: 400rpx;
+	margin: 0 auto;
+	border-radius: 45rpx;
+	background-color: #D9E9F6;
+	border: #8AA9C5 solid 3px;
+}
+.icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 650rpx;
+	height: 300rpx;
+	margin: 0 auto;
+}
+.icons view {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 150rpx;
+	height: 150rpx;
+}
+.icons view image {
+	width: 100rpx;
+	height: 100rpx;
+}
+.icons view ._p {
+	margin-top: 10rpx;
+	font-family: "楷体";
+	font-size: 30rpx;
+	font-weight: 550;
+}
+.tag {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 90%;
+	height: 80rpx;
+	margin: 0 auto;
+}
+.tag view {
+	margin: 0 auto;
+	background: #E1DBBE;
+	height: 35rpx;
+	width: 80rpx;
+	border-radius: 20rpx;
+}
+.tag view ._p {
+	text-align: center;
+	font-family: "楷体";
+	font-weight: 500;
+}
+.info1 {
+	position: relative;
+	width: 700rpx;
+	height: 120rpx;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 45rpx;
+	background: #F9DFBE;
+	border: #F09420 solid 3px;
+}
+.info1 image {
+	position: absolute;
+	width: 60rpx;
+	height: 60rpx;
+	left: 30rpx;
+	top: 10rpx;
+}
+.info1 .name {
+	position: absolute;
+	color: #000000;
+	font-weight: 700;
+	height: 40rpx;
+	font-family: 'Courier New', Courier, monospace;
+	left: 100rpx;
+	top: 15rpx;
+}
+.info1 .wen {
+	position: absolute;
+	font-size: 28rpx;
+	color: #746561;
+	font-weight: 600;
+	height: 40rpx;
+	font-family: "楷体";
+	left: 100rpx;
+	top: 65rpx;
+}
+.info2 {
+	position: relative;
+	width: 700rpx;
+	height: 380rpx;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 45rpx;
+	background: #F9DFBE;
+	border: #F09420 solid 3px;
+}
+.info2 .tou {
+	position: absolute;
+	width: 60rpx;
+	height: 60rpx;
+	left: 30rpx;
+	top: 10rpx;
+}
+.info2 .name {
+	position: absolute;
+	color: #000000;
+	font-weight: 700;
+	height: 40rpx;
+	font-family: 'Courier New', Courier, monospace;
+	left: 100rpx;
+	top: 15rpx;
+}
+.info2 .wen {
+	position: absolute;
+	font-size: 28rpx;
+	color: #746561;
+	font-weight: 600;
+	height: 40rpx;
+	font-family: "楷体";
+	left: 100rpx;
+	top: 65rpx;
+}
+.info2 .tu1 {
+	position: absolute;
+	width: 190rpx;
+	height: 150rpx;
+	left: 80rpx;
+	top: 200rpx;
+}
+.info2 .tu2 {
+	position: absolute;
+	width: 190rpx;
+	height: 150rpx;
+	left: 280rpx;
+	top: 200rpx;
+}
+.info2 .tu3 {
+	position: absolute;
+	width: 190rpx;
+	height: 150rpx;
+	left: 480rpx;
+	top: 200rpx;
+}
+.info3 {
+	position: relative;
+	width: 700rpx;
+	height: 150rpx;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 45rpx;
+	background: #F9DFBE;
+	border: #F09420 solid 3px;
+}
+.info3 image {
+	position: absolute;
+	width: 60rpx;
+	height: 60rpx;
+	left: 30rpx;
+	top: 10rpx;
+}
+.info3 .name {
+	position: absolute;
+	color: #000000;
+	font-weight: 700;
+	height: 40rpx;
+	font-family: 'Courier New', Courier, monospace;
+	left: 100rpx;
+	top: 15rpx;
+}
+.info3 .wen {
+	position: absolute;
+	font-size: 28rpx;
+	color: #746561;
+	font-weight: 600;
+	height: 40rpx;
+	font-family: "楷体";
+	left: 100rpx;
+	top: 65rpx;
+}
+picker view{
+	font-family: "楷体";
+	font-weight: 600;
+}
+

@@ -1,0 +1,138 @@
+
+.top {
+	height: 25px;
+	width: 100%;
+	background-color: #E5E5E5;
+}
+.shang {
+	position: relative;
+	width: 100%;
+	height: 450rpx;
+	background: #E5E5E5;
+	border-radius: 0 0 80rpx 80rpx;
+}
+.nei {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	height: 100rpx;
+}
+.nei image {
+	float: right;
+	width: 65rpx;
+	height: 65rpx;
+	margin: auto 10rpx;
+	margin-right: 10rpx;
+}
+.shang .datouxiang {
+	position: absolute;
+	width: 150rpx;
+	height: 150rpx;
+	left: 40rpx;
+}
+.shang .user—name {
+	position: absolute;
+	left: 240rpx;
+	top: 120rpx;
+	font-size: 55rpx;
+}
+.shang .user—id {
+	position: absolute;
+	left: 240rpx;
+	top: 185rpx;
+	font-size: 45rpx;
+	font-weight: 300;
+}
+.shang .user—phone {
+	position: absolute;
+	left: 240rpx;
+	top: 225rpx;
+	font-size: 45rpx;
+	font-weight: 300;
+}
+.shang .az {
+	position: absolute;
+	width: 80%;
+	height: 120rpx;
+	left: 75rpx;
+	top: 300rpx;
+}
+.az .dv1 {
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 120rpx;
+	height: 120rpx;
+}
+.az .dv2 {
+	float: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 120rpx;
+	height: 120rpx;
+}
+.dv1 image,
+.dv2 image {
+	width: 70rpx;
+	height: 70rpx;
+}
+.dv1 ._p,
+.dv2 ._p {
+	font-size: 15rpx;
+}
+.wodedingdan {
+	width: 700rpx;
+	height: 270rpx;
+	margin: 0 auto;
+	margin-top: 20rpx;
+	border-radius: 45rpx;
+	background: #C7D9F8;
+}
+.wodejeidan {
+	width: 700rpx;
+	height: 270rpx;
+	margin: 0 auto;
+	margin-top: 20rpx;
+	border-radius: 45rpx;
+	background: #FCE9CA;
+}
+.wodedingdan ._p,
+.wodejeidan ._p {
+	font-size: 40rpx;
+	margin-left: 25rpx;
+	font-weight: 600;
+}
+.neirong {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 650rpx;
+	height: 200rpx;
+	margin: 0 auto;
+	margin-top: 8rpx;
+}
+.neirong .one{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 160rpx;
+	height: 160rpx;
+}
+.one image{
+	width: 95rpx;
+	height: 95rpx;
+}
+.one ._p{
+	font-size: 35rpx;
+	text-align: left;
+	width: 140rpx;
+	font-family: "楷体";
+}
+

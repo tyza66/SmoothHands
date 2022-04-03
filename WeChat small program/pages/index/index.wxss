@@ -1,0 +1,215 @@
+/* pages/index/index.wxss */
+.top {
+  position: relative;
+  width: 100%;
+  height: 18vw;
+  border-radius: 2vw;
+  box-shadow: 0 1.5px 5px rgba(0, 0, 0, 0.3);
+  background: rgb(181, 184, 193);
+}
+
+.position {
+  position: absolute;
+  width: 35vw;
+  height: 14vw;
+  top: 2vw;
+  left: 0vw;
+}
+
+.wei {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  top: 2vw;
+  left: 2vw;
+}
+
+.bohai {
+  position: absolute;
+  font-size: 5vw;
+  top: 4vw;
+  left: 12vw;
+  font-family: "幼圆";
+}
+
+.search {
+  position: relative;
+  width: 63vw;
+  height: 14vw;
+  top: 2vw;
+  left: 35vw;
+  border-radius: 2vw;
+  box-shadow: 0 0 7px rgba(0, 0, 0, .5)inset;
+  background: white;
+}
+
+.shao {
+  position: absolute;
+  width: 8vw;
+  height: 8vw;
+  top: 3vw;
+  border-right: black solid 1px;
+}
+
+.shao-im {
+  position: absolute;
+  width: 6vw;
+  height: 6vw;
+  top: 1vw;
+  left: 1.5vw;
+}
+
+.shuru {
+  position: absolute;
+  width: 35vw;
+  height: 10vw;
+  top: 2vw;
+  left: 8.1vw;
+}
+
+.yuyin {
+  position: absolute;
+  width: 4vw;
+  height: 6vw;
+  top: 4vw;
+  left: 43vw;
+}
+
+.sbumit {
+  position: absolute;
+  width: 15vw;
+  height: 10vw;
+  top: 2vw;
+  left: 47vw;
+  border-radius: 2vw;
+  background: rgb(212, 215, 220);
+}
+
+.text1 {
+  position: absolute;
+  font-size: 6vw;
+  text-align: center;
+  height: 10vw;
+  width: 15vw;
+  left: 0vw;
+  top: 1vw;
+  box-shadow: 5px #383838;
+  font-family: "仿宋";
+  font-weight: bolder;
+}
+
+.daohang {
+  width: 95vw;
+  height: 45vw;
+  border-radius: 8vw;
+  margin-left: 2.5vw;
+  margin-top: 2vw;
+  box-shadow: 0 0 15px rgb(0 0 0 / 50%);
+}
+
+.daohang-rongqi {
+  width: 90vw;
+  height: 45vw;
+  margin-left: 4vw;
+}
+
+.one {
+  float: left;
+  position: relative;
+  width: 20vw;
+  height: 22vw;
+  margin-right: 1.66vw;
+}
+
+.tubiao {
+  position: absolute;
+  width: 17vw;
+  height: 17vw;
+  left: 1.5vw
+}
+
+.name {
+  position: absolute;
+  top: 16vw;
+  left: 1.5vw;
+  text-align: center;
+}
+
+.lunbo {
+  width: 95vw;
+  height: 40vw;
+  margin-top: 2vw;
+  margin-left: 2vw;
+}
+
+.it {
+  width: 100%;
+}
+
+.item1 {
+  position: relative;
+  width: 95vw;
+  height: 25vw;
+  border-radius: 8vw;
+  margin-left: 2.5vw;
+  margin-top: 2vw;
+  box-shadow: 0 0 15px rgb(0 0 0 / 30%);
+}
+.B1{
+  position: absolute;
+  font-size: 6vw;
+  left: 3vw;
+  top: 1vw;
+}
+.B2{
+  position: absolute;
+  font-size: 4.5vw;
+  left: 3vw;
+  top: 10vw;
+}
+.B3{
+  position: absolute;
+  width: 6vw;
+  height: 6vw;
+  left: 3vw;
+  top: 17vw;
+}
+.B4{
+  position: absolute;
+  font-size: 4vw;
+  left: 10vw;
+  top: 17vw;
+  color: #817d7e;
+}
+.B5{
+  position: absolute;
+  font-size: 4vw;
+  left: 24vw;
+  top: 17vw;
+  font-weight: 800;
+  color: red;
+}
+.B6{
+  position: absolute;
+  font-size: 3vw;
+  left: 68vw;
+  top: 1vw;
+}
+.B7{
+  position: absolute;
+  width: 24vw;
+  height: 9vw;
+  background: rgb(180, 184 , 193);
+  left: 68vw;
+  top: 13vw;
+  border-radius: 5vw;
+  box-shadow: 0 0 15px rgb(0 0 0 / 50%);
+}
+.B8{
+  position: absolute;
+  left: 2vw;
+  top: 1.5vw;
+  font-size: 5vw;
+  font-family: "仿宋";
+  text-align: center;
+}
