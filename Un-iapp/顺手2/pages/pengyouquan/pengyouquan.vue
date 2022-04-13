@@ -3,18 +3,18 @@
 		<view class="top"></view>
 		<view class="search">
 			<view class="bhu">
-				<image class="pos" src="../../static/icon/1630487803061.png">
+				<!--<image class="pos" src="../../static/icon/1630487803061.png">
 					<picker :value="index" :range="array">
 					        <view>{{array[index]}}</view>
 					    </picker>
-				</image>
+				</image>-->
 			</view>
 			<view class="find"><input type="text"></input>
 				<image class="pos" src="../../static/icon/1630487803068.png">
 			</view>
-			<image class="jia" src="../../static/icon/1630487803044.png"></image>
+			<!--<image class="jia" src="../../static/icon/1630487803044.png"></image>-->
 		</view>
-		<view class="show">
+		<!--<view class="show">
 			<view class="icons">
 				<view>
 					<image src="../../static/icon/1630487803116.png"></image>
@@ -92,7 +92,7 @@
 			<image src="../../static/tou/ss.jpg"></image>
 			<p class="name">顺手官方</p>
 			<p class="wen">顺手</br>让你的生活更便捷！</p>
-		</view>
+		</view>-->
 	</view>
 </template>
 
@@ -119,13 +119,13 @@
 
 	.search {
 		display: flex;
-		justify-content: flex-start;
+		justify-content: center;
 		align-items: center;
 		width: 100%;
 		height: 100rpx;
 	}
 
-	.bhu {
+	/*.bhu {
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
@@ -145,12 +145,12 @@
 		display: inline-block;
 		font-family: "楷体";
 		font-weight: 800;
-	}
+	}*/
 
 	.find {
 		position: relative;
 		display: inline-block;
-		width: 320rpx;
+		width: 620rpx;
 		height: 65rpx;
 		border-radius: 40rpx;
 		border: black solid 1px;
@@ -169,11 +169,11 @@
 		width: 45rpx;
 		height: 45rpx;
 		position: absolute;
-		left: 260rpx;
+		left: 560rpx;
 		top: 10rpx;
 	}
 
-	.jia {
+	/*.jia {
 		width: 45rpx;
 		height: 45rpx;
 		margin-left: 100rpx;
@@ -389,5 +389,5 @@
 	picker view{
 		font-family: "楷体";
 		font-weight: 600;
-	}
+	}*/
 </style>
