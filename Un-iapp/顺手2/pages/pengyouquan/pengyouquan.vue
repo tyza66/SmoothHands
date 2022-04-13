@@ -10,10 +10,12 @@
 				</image>-->
 			</view>
 			<view class="find"><input type="text"></input>
+				<p>请输入想要的内容</p>
 				<image class="pos" src="../../static/icon/1630487803068.png">
 			</view>
 			<!--<image class="jia" src="../../static/icon/1630487803044.png"></image>-->
 		</view>
+		<view class="bg"></view>
 		<!--<view class="show">
 			<view class="icons">
 				<view>
@@ -124,7 +126,13 @@
 		width: 100%;
 		height: 100rpx;
 	}
-
+	.bg{
+		width: 100%;
+		height: 1300rpx;
+		background-image: url(../../static/tu/s1.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
 	/*.bhu {
 		display: flex;
 		justify-content: flex-start;
@@ -172,7 +180,12 @@
 		left: 560rpx;
 		top: 10rpx;
 	}
-
+	.find p{
+		color: #555555;
+		position: absolute;
+		left: 180rpx;
+		top: 10rpx;
+	}
 	/*.jia {
 		width: 45rpx;
 		height: 45rpx;
