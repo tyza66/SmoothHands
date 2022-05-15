@@ -23,6 +23,7 @@
 				<view class="ot" @click="tongyi()"><p>同意</p></view>
 			</view>
 			<div class="init">
+				<image src="../../static/tu/UI.jpg" class="UI">
 				<div class="ics">
 					<div class="icon" @click="xiaoyuan()">
 						<image src="../../static/icon/t1.png"></image>
@@ -132,27 +133,35 @@
 		width: 450rpx;
 		height: 600rpx;
 		margin: 0 auto;
-		margin-top: 330rpx;
+		margin-top: 120rpx;
 	}
 	.icon{
-		float: left;
 		position: relative;
-		width: 100%;
-		height: 120rpx;
+		width: 80%;
+		height: 100rpx;
 		border-bottom: #2C405A solid 2px;
+		
+		margin: 0 auto;
 	}
 	.icon image{
-		width: 100rpx;
-		height: 100rpx;
+		width: 80rpx;
+		height: 80rpx;
 		margin-top: 10px;
 		margin-left: 10px;
 	}
 	.icon p{
 		display: inline;
 		position: absolute;
-		font-size: 70rpx;
+		font-size: 50rpx;
 		font-family: "幼圆";
 		top: 40rpx;
+	}
+	.UI{
+		display: block;
+		width: 400rpx;
+		height: 250rpx;
+		margin: 0 auto;
+		margin-top: 100rpx;
 	}
 </style>
 
