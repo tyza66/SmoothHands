@@ -161,7 +161,7 @@
 		width: 400rpx;
 		height: 250rpx;
 		margin: 0 auto;
-		margin-top: 100rpx;
+		margin-top: 150rpx;
 	}
 </style>
 

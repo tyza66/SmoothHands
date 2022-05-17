@@ -34,15 +34,6 @@
             
         }
         ,{
-            "path" : "pages/dizhixinxi/dizhixinxi",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
             "path" : "pages/grw/grw",
             "style" :                                                                                    
             {
@@ -63,14 +54,14 @@
 			"selectedColor":"#FE5E00",
 			"list": [
 				{
-					"text": "订单",
-					"pagePath": "pages/index/index",
+					"text": "首页",
+					"pagePath": "pages/jifenshangcheng/jifenshangcheng",
 					"iconPath":"static/icons/tt1.png",
-					"selectedIconPath":"static/icons/tt11.png"
+					"selectedIconPath":"static/12.png"
 				},
 				{
-					"text": "积分商城",
-					"pagePath": "pages/jifenshangcheng/jifenshangcheng",
+					"text": "订单",
+					"pagePath": "pages/index/index",
 					"iconPath":"static/icons/tt2.png",
 					"selectedIconPath":"static/icons/tt21.png"
 				},

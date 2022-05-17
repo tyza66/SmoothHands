@@ -22,7 +22,7 @@
 		</view>
 		<view class="part3">
 			<view class="biaoti">
-				<view class="xiao"><p class="bt">帮我运</p></view>
+				<view class="xiao"><p class="bt">帮我送</p></view>
 				<view class="xiao"><p>帮我取</p></view>
 				<view class="xiao"><p>帮我买</p></view>
 			</view>

@@ -257,8 +257,8 @@
 	}
 
 	.icons view image {
-		width: 60rpx;
-		height: 60rpx;
+		width: 80rpx;
+		height: 80rpx;
 	}
 
 	.icons view p {
